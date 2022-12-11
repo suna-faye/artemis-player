@@ -9,11 +9,12 @@ export default function Home() {
   const isLG = useMediaQuery(LG);
   const isXL = useMediaQuery(XL);
   const isXXL = useMediaQuery(XXL);
+
   return (
     <>
-      <main className="flex flex-col items-center p-6 md:flex-row">
+      <main className="flex flex-col items-center p-6 sm:flex-row">
         <Image src={Haibara} className="h-12 w-12 rounded-xl" alt={"baibara"} />
-        <h1 className="pt-4 text-3xl font-bold leading-none text-primary sm:pt-0 md:pt-0 md:pl-4 md:align-middle lg:pt-0 xl:pt-0 2xl:pt-0">
+        <h1 className="pt-4 align-middle text-3xl font-bold leading-none text-primary sm:pl-4">
           Haibara Ai
         </h1>
         {/* <div className="mx-auto flex max-w-sm items-center space-x-4 rounded-xl bg-white p-6 shadow-md">

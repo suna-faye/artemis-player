@@ -12,7 +12,6 @@ const Login = () => {
           {/* before:content-['↖_'] after:content-['_↗'] */}
           Artemis
         </h1>
-        <Image src={""} alt={""} />
       </section>
     </main>
   );
